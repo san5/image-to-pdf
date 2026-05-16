@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { PDFDocument } from "pdf-lib";
-import heic2any from "heic2any";
+//import heic2any from "heic2any";
 
 export default function Home() {
   const [files, setFiles] = useState<File[]>([]);
@@ -26,6 +26,8 @@ export default function Home() {
         file.name.toLowerCase().endsWith(".heic")
       ) {
         try {
+          const heic2any = (await import("heic2any")).default;
+
           const convertedBlob = (await heic2any({
             blob: file,
             toType: "image/jpeg",
