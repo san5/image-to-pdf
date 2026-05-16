@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "heic2any": "^0.0.4",
     "next": "16.2.6",
     "pdf-lib": "^1.17.1",
