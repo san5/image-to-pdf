@@ -368,6 +368,101 @@ export default function Home() {
         <p className="text-center text-sm text-gray-500 mt-6">
           Files never leave your device
         </p>
+
+<div className="max-w-4xl mx-auto mt-16 space-y-12 text-left px-4 pb-4">
+
+  <section>
+    <h2 className="text-2xl font-bold mb-4">
+      Free Image to PDF Converter
+    </h2>
+
+    <p className="text-gray-600 dark:text-gray-300 leading-7">
+      Convert JPG, PNG, WEBP and HEIC images into PDF directly in your browser.
+      Your files never leave your device, making the conversion process fast,
+      private and secure.
+    </p>
+  </section>
+
+  <section>
+    <h2 className="text-2xl font-bold mb-4">
+      Why Use This Tool?
+    </h2>
+
+    <ul className="list-disc pl-6 space-y-2 text-gray-600 dark:text-gray-300">
+      <li>No image uploads required</li>
+      <li>Fast browser-based conversion</li>
+      <li>Supports JPG, PNG, WEBP and HEIC</li>
+      <li>Works on mobile and desktop</li>
+      <li>Reorder images before generating PDF</li>
+      <li>Adjust compression quality</li>
+      <li>Completely free to use</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 className="text-2xl font-bold mb-4">
+      How It Works
+    </h2>
+
+    <div className="space-y-3 text-gray-600 dark:text-gray-300">
+      <p>1. Upload one or multiple images.</p>
+      <p>2. Reorder images if needed.</p>
+      <p>3. Adjust PDF quality settings.</p>
+      <p>4. Click Convert and download your PDF.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 className="text-2xl font-bold mb-4">
+      Frequently Asked Questions
+    </h2>
+
+    <div className="space-y-6 text-gray-600 dark:text-gray-300">
+
+      <div>
+        <h3 className="font-semibold mb-1">
+          Are my images uploaded to a server?
+        </h3>
+
+        <p>
+          No. All image processing happens directly in your browser.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold mb-1">
+          Does this support iPhone HEIC images?
+        </h3>
+
+        <p>
+          Yes. HEIC images are automatically converted before generating the PDF.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold mb-1">
+          Is this tool free?
+        </h3>
+
+        <p>
+          Yes. The tool is completely free to use.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold mb-1">
+          Can I use this on mobile?
+        </h3>
+
+        <p>
+          Yes. The tool works on Android, iPhone, tablets and desktop browsers.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+</div>
       </div>
     </main>
   );
