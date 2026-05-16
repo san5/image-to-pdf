@@ -18,6 +18,10 @@ export const metadata = {
   title: "Free Image to PDF Converter",
   description:
     "Convert JPG, PNG, WEBP and HEIC images into PDF directly in your browser.",
+  
+  verification: {
+  google: "3bw6Cono_cPqaJelDWtpZLu0JClxHuckW8WRRlzUEzQ",
+  },
 };
 
 export default function RootLayout({
